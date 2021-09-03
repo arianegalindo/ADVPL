@@ -1,0 +1,30 @@
+Class FwRest
+
+Properties
+	aCabecret (inherithed from FWREST)
+	cHost (inherithed from FWREST)
+	cInternalerror (inherithed from FWREST)
+	cPath (inherithed from FWREST)
+	cPostparams (inherithed from FWREST)
+	cResult (inherithed from FWREST)
+	lChkstatuscode (inherithed from FWREST)
+	nTimeout (inherithed from FWREST)
+	oResponseh (inherithed from FWREST)
+
+Methods
+	DELETE( aHeadstr, cPayload ) (inherithed from FWREST)
+	GET( aHeadstr, cGetparam ) (inherithed from FWREST)
+	GETCHKSTATUS() (inherithed from FWREST)
+	GETHEADER( cKey, lCasesensitive ) (inherithed from FWREST)
+	GETHTTPCODE() (inherithed from FWREST)
+	GETLASTERROR() (inherithed from FWREST)
+	GETRESULT() (inherithed from FWREST)
+	ISOK() (inherithed from FWREST)
+	NEW( cHost ) (inherithed from FWREST)
+	POST( aHeadstr ) (inherithed from FWREST)
+	PUT( aHeadstr, cPayload ) (inherithed from FWREST)
+	SETCHKSTATUS( lChk ) (inherithed from FWREST)
+	SETHOST( cHost ) (inherithed from FWREST)
+	SETPATH( cPath ) (inherithed from FWREST)
+	SETPOSTPARAMS( cParams ) (inherithed from FWREST)
+

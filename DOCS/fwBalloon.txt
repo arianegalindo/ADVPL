@@ -1,0 +1,11 @@
+Class FWBALLOON
+
+Properties
+	cArgo
+	oContainer
+	oTimer
+
+Methods
+	CLOSE()
+	NEW( nRow, nCol, nWidth, nHeight, oWnd, cTitle, cText, nType, nPosarrow, oFont, cClrbackini, cClrbackfim, cClrborder, cClrscroll, nRgbfont, nTimer )
+

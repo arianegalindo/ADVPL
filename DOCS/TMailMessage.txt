@@ -1,0 +1,44 @@
+Class TMAILMESSAGE
+
+Properties
+	cBcc
+	cBody
+	cCc
+	cDate
+	cFrom
+	cMessageid
+	cNewsgroups
+	cNotification
+	cReferences
+	cReplyto
+	cSubject
+	cTo
+	cXmailer
+	cXnewsreader
+	cXref
+	lSigned
+	nXpriority
+
+Methods
+	ADDATTHTAG()
+	ADDCUSTOMHEADER()
+	ATTACH()
+	ATTACHFILE()
+	ATTACHFULLPATH()
+	CLEAR()
+	FROMSTR()
+	GETATTACH()
+	GETATTACHCOUNT()
+	GETATTACHINFO()
+	GETCUSTOMHEADER()
+	LOAD()
+	MSGBODYENCODE()
+	MSGBODYTYPE()
+	NEW()
+	RECEIVE()
+	SAVE()
+	SAVEATTACH()
+	SEND()
+	SETCONFIRMREAD()
+	TOSTR()
+

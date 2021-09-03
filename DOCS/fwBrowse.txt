@@ -1,0 +1,453 @@
+Class FWBROWSE
+
+Properties
+	aBkpbrworder
+	aBkpprofile
+	aBkpsizecol
+	aBreakreport
+	aBrwrelation
+	aClassify
+	aColumns
+	aCustomcolor
+	aCustomconfig
+	aDefaultcolumns
+	aDeforderseek
+	aEmptymessage
+	aFilterdefault
+	aFontewidth
+	aGroup
+	aItemdoubleclick
+	aItemheaderclick
+	aLeftjoin
+	aLegends
+	aMapfield
+	aRecbrwrela
+	aSorder
+	aTotal
+	aTotaldefault
+	aUniquekey
+	aVisiblereg
+	bAdd
+	bAfteraddline
+	bAllok
+	bApplyconfig
+	bApplyparams
+	bBlkbackcolor
+	bBlkcolor
+	bCanadd
+	bChange
+	bConfig
+	bConfigitemconfirm
+	bCustomheaderclick
+	bCustomldblclick
+	bDelete
+	bDelok
+	bFonstart
+	bGotfocus
+	bGroup
+	bHeaderclick
+	bLdblclick
+	bLine
+	bLineok
+	bLogiclen
+	bModeledtline
+	bOnmove
+	bPreeditcell
+	bSaction
+	bSeekchange
+	bSuperdel
+	bUpdatebrowse
+	bValidedit
+	bViewedtline
+	bVldexecfilter
+	cAlias
+	cClassname
+	cDescription
+	cEspfilter
+	cFilterdefault
+	cFontbody
+	cIdalias
+	cOldfilter
+	cOriginalfilter
+	cProfileid
+	cRealalias
+	cStyle
+	cSvalias
+	cSvsrcalias
+	lAccvisual
+	lActivate
+	lAdjust
+	lApplyfilteronactivate
+	lCancancelfilter
+	lCangotfocus
+	lCansavearea
+	lCasefilter
+	lCfgempfil
+	lChangefont
+	lChecklayout
+	lClralterrow
+	lCustomcolor
+	lDataarray
+	lDataquery
+	lDatatable
+	lDatatext
+	lDbffilter
+	lDelete
+	lDisablepaint
+	lDodestroy
+	lEditcell
+	lEditline
+	lExecchgcolumn
+	lFilter
+	lFiltrate
+	lFocusonactivate
+	lFontbold
+	lFontitalic
+	lFontunderline
+	lForcerefresh
+	lHascheckednative
+	lHeaderclick
+	lHidebuttons
+	lInsert
+	lLdblclick
+	lLocate
+	lLookup
+	lModeldata
+	lNopaint
+	lNumberlegend
+	lObligatefilter
+	lOpengroup
+	lOptionconfig
+	lOptionreport
+	lOrdercol
+	lRelationfilter
+	lSavearea
+	lSaveconfig
+	lSavedconfig
+	lSavefilter
+	lSeek
+	lSetcasefilter
+	lSetfilter
+	lTotalchange
+	lUpdvisibrw
+	nAt
+	nBackcolor
+	nClralterrow
+	nCursorpos
+	nDoubleclick
+	nFontbody
+	nForecolor
+	nHeaderclick
+	nHeadercolor
+	nLen
+	nMovetype
+	nOffset
+	nPossiblerows
+	nRecnoatu
+	nRowheight
+	nSeekpos
+	nSvorder
+	nSvrecno
+	nSvsrcorder
+	nSvsrcrecno
+	nTxtheadercolor
+	nTypemove
+	nVisiblerows
+	oBackpanel
+	oBrowse
+	oBrowseui
+	oConfig
+	oData
+	oFont
+	oFontconfig
+	oFwfilter
+	oFwformgrid
+	oMark
+	oOwner
+	oPanelempty
+
+Methods
+	ACTIONCONFIG( oPanel )
+	ACTIVATE( lFwbrowse )
+	ADDBRWRELATION( oBrwrel )
+	ADDCOLUMN( aColumn, lCreate )
+	ADDCOLUMNCONFIG( oPanel )
+	ADDCUSTOMCONFIG( cTitle, bView, bSave )
+	ADDFILTER( cFilter, cExpadvpl, lNocheck, lSelected, cAlias, lFilterask, aFilparser, cId, lFunction )
+	ADDITEMDOUBLECLICK( aItemdoubleclick )
+	ADDITEMHEADERCLICK( aItemheaderclick )
+	ADDLEGEND( xCondition, cColor, cTitle, cId, lFilter )
+	ADDLINE()
+	ADDMARKCOLUMNS( bMark, bLdblclick, bHeaderclick, cHddesc )
+	ADDSTATUSCOLUMNS( bStatus, bLdblclick )
+	ADDUSERCOLUMN( aColumn, lCreate )
+	AFTERBROWSECREATE()
+	AFTERCONTENTCREATE()
+	ALIAS()
+	ALIGNCONFIG( oPcenter )
+	ALLOK()
+	APPLYLEFTJOIN()
+	AT()
+	BDATAGROUP()
+	BDATAMARK( bMark )
+	BDATASTATUS( bStatus )
+	BROWSE()
+	BROWSECONFIG( oConfig )
+	CANLOCSEEK()
+	CHECKEMPTY()
+	CHECKFILTRATE()
+	CLASSIFYCOLUMNCONFIG( oPcenter )
+	CLASSNAME()
+	CLEANEXFILTER()
+	CLEANFILTER()
+	CLEANPROFILE()
+	CLEARFILTER( nOption, cFunction )
+	CLRALTERNATECONFIG( oPanel )
+	COLORCOLUMNCONFIG( oPanel )
+	COLORCONFIG( oPanel, aColors )
+	COLORTRIANGLE( oObject, oSaycolor, nOption, aColors )
+	COLPOS( lDeleted )
+	COLUMNORDER( aOrder, nOrder, lUp )
+	COLUMNSCONFIG( oConfig )
+	COMMENTCOLUMNCONFIG( oPcenter )
+	COMMENTCONFIG( oObject, aComment, nColumn, lReadonly, nTop, nLeft )
+	CONFIG( oObject )
+	CREATEBROWSE( lUpdate, lForceupdtb )
+	DATA()
+	DATAARRAY()
+	DATAQUERY()
+	DATATABLE()
+	DATATEXT()
+	DBFFILTER()
+	DEACTIVATE( lFreechildren )
+	DEFAULT()
+	DELCOLUMN( nColumn )
+	DELCOLUMNCONFIG( oPcenter )
+	DELETEFILTER( cId )
+	DELLINE()
+	DELOK()
+	DESTROY()
+	DISABLE()
+	DISABLECONFIG()
+	DISABLEFILTER()
+	DISABLELOCATE()
+	DISABLEORDER()
+	DISABLEREPORT()
+	DISABLESAVECONFIG()
+	DISABLESEEK()
+	DODESTROY()
+	DOUBLECLICK( oTgrid, nChar )
+	EDITCELL( nColumn, nChar )
+	ENABLE()
+	EXECUTEFILTER( lBrwupdate, lFilterask )
+	EXECUTEGROUP()
+	FIELDISFASTLOCATE( cField, cTipo, cMasc )
+	FILTERCONFIG( oPanel )
+	FILTRATE()
+	FONTCOLUMNCONFIG( oPanel )
+	FONTCONFIG( oPanel )
+	FWFILTER()
+	GETALIAS()
+	GETBACKCOLOR()
+	GETBREAKREPORT()
+	GETBRWRELATION()
+	GETCHANGE()
+	GETCLRALTERROW()
+	GETCOLBYGRIDID( nId )
+	GETCOLBYID( cId )
+	GETCOLUMN( nCol )
+	GETCOLUMNCONFIG( cTitle, cData, cType, cPicture, cAlign, nWidth, cEdit, cValid, cImage, cReadvar, cId )
+	GETCOLUMNDATA( nIdcolumn )
+	GETDESCRIPTION()
+	GETFIELDINFO( cField )
+	GETFILTERDEFAULT()
+	GETFILTEREXPRESSION()
+	GETFONTWIDTH( nSize )
+	GETFORECOLOR()
+	GETINDFIELDS( cTable2, cValidtype, aOrder )
+	GETLEFTJOIN()
+	GETMOVETYPE()
+	GETOBJMARK()
+	GETOFFSET()
+	GETORIGINALFILTER()
+	GETOWNER()
+	GETPOSICIONE( cIdcolumn, bPosicione )
+	GETPROFILEID()
+	GETQUERY()
+	GETSEEK()
+	GETTOTBYID( cId )
+	GETUNIQUEDATAKEY()
+	GETUNIQUEKEY()
+	GOBOTTOM( lCallrefresh )
+	GOCOLUMN( nColumn )
+	GODOWN( nOffset, lReport )
+	GOPGDOWN()
+	GOPGUP()
+	GORIGHT()
+	GOTO( nGoto, lRefresh, lEval )
+	GOTOARRAYINITIALLINE( nLine )
+	GOTODATAKEY( aDatakey )
+	GOTOP( lForce, lForceupdtb )
+	GOUP( nOffset )
+	GROUPLINEREFRESH( lUp )
+	HEADERCLICK()
+	HIDE()
+	HIDEBROWSE()
+	INITCASEFILTER( oFwcasefilter )
+	INITFILTER( oFwfilter )
+	INITLOCATE( oFwlocate )
+	INITSEEK( oFwseek )
+	INITTOTALS()
+	ISCFGEMPFIL()
+	ISWHEELMOVE()
+	KEYBLOCK( oGrid, nChar )
+	LINEHEIGHTCONFIG( oPanel )
+	LINEOK( lInsert )
+	LINEREFRESH( nAt )
+	LOADCONFIG()
+	LOCATEACTION()
+	LOCATECONFIG( oPanel )
+	LOGICLEN()
+	MAPFIELD()
+	NEW( oOwner )
+	OBLIGATEFILTER()
+	ONCHANGE()
+	ONCOLUMNCHANGED()
+	ONMOVE( oBrowse, nMvtype, nCurpos, nOffset, nVisrows )
+	OPTIONCONFIG()
+	OPTIONPRINT()
+	OPTIONREPORT()
+	ORDERCOLUMN()
+	ORDERCONFIG( oPcenter )
+	PICTURECOLUMNCONFIG( oPcenter )
+	RECOVERYCOLUMN( nColumn )
+	RECUPARATECOLUMNCONFIG( oPcenter )
+	RECUPCONFIG( oPanel, lTitle, cCaption )
+	REFRESH( lGotop, lSeekaction, lFilterask )
+	REFRESHCUSTOMCOLOR()
+	REFRESHSEEK( nOper )
+	REPORT()
+	RESET()
+	RESETLEN()
+	RESTOREAREA()
+	RESTOREFILTER( nOption, cFunction, nRecno )
+	RESTORESRCALIAS()
+	SAVE()
+	SAVEAREA()
+	SAVECONFIG( oPanel, lTitle, cCaption )
+	SAVEONPROFILE( aProfile )
+	SAVESRCALIAS()
+	SEEKACTION()
+	SEEKCONFIG( oPanel )
+	SELECTROW( nPoscursor )
+	SETADDLINE( bAdd )
+	SETAFTERADDLINE( bAfteraddline )
+	SETALIAS( cAlias )
+	SETALIGNCOLUMNS( aAligncolumns )
+	SETALLOK( bAllok )
+	SETAPPLYFILTERONACTIVATE( lApply )
+	SETAPPLYPARAMS( bApplyparams )
+	SETARRAY( aArray )
+	SETBACKCOLOR( nBackcolor )
+	SETBLKBACKCOLOR( bBackcolor )
+	SETBLKCOLOR( bBlkcolor )
+	SETBREAKREPORT( aBreakreport )
+	SETCANADDLINE( bCan )
+	SETCANGOTFOCUS( lCangotfocus )
+	SETCANSAVEAREA( lSet )
+	SETCASEFILTER()
+	SETCFGEMPFIL( lCfgempfil )
+	SETCHANGE( bChange )
+	SETCHKLAYOUT( lChecklayout )
+	SETCLASSIFYCOLUMN( aClassify, aBreakprint )
+	SETCLRALTERROW( nClralterrow )
+	SETCOLOR()
+	SETCOLORCOLUMNS( aColors )
+	SETCOLPOS( nCol )
+	SETCOLUMNORDER( nColumn, nNeworder )
+	SETCOLUMNS( aColumns )
+	SETCOMMENTCOLUMNS( aComment )
+	SETDATAARRAY()
+	SETDATAMODEL()
+	SETDATAQUERY()
+	SETDATATABLE()
+	SETDATATEXT()
+	SETDBFFILTER( lDbffilter )
+	SETDELCOLUMN( aDelcolumns )
+	SETDELETE( lDelete, bDelete )
+	SETDELOK( bDelok )
+	SETDESCRIPTION( cDescription )
+	SETDISABLEADJUST( lAdjust )
+	SETDODESTROY( lDodestroy )
+	SETDOUBLECLICK( bLdblclick )
+	SETEDITCELL( lEditcell, bValidedit )
+	SETEMPTYMESSAGE( aMessage )
+	SETFIELDFILTER( aFields )
+	SETFILE( cFile, cCharseparator )
+	SETFILTER( cCpofil, cTopfun, cBotfun, lDofilter )
+	SETFILTERDEFAULT( cFilterdefault, lReplaceoriginalfilter, lFilterask )
+	SETFOCUS()
+	SETFONTBROWSE( oFont )
+	SETFONTCOLUMNS( aFont )
+	SETFORECOLOR( nForecolor )
+	SETFWFORMGRID( oFwformgrid )
+	SETGROUP( bGroup, lOpen )
+	SETHEADERIMAGE( nColumn, cResource )
+	SETIDALIAS( cIdalias )
+	SETINSERT( lInsert )
+	SETITEMDOUBLECLICK( aItemdoubleclick )
+	SETITEMHEADERCLICK( aItemheaderclick )
+	SETLINEBEGIN( nLinebegin )
+	SETLINEHEIGHT( nHeight )
+	SETLINEOK( bLineok )
+	SETLOCATE( bAction )
+	SETLOOKUP( lLookup )
+	SETMAPFIELD( aMapfield )
+	SETMODELEDTLINE( bSet )
+	SETNUMBERLEGEND( lNumber )
+	SETOBJMARK( oObjmark )
+	SETOBLIGATEFILTER( lObligatefilter, lCancancel )
+	SETORDERCOLUMNS( aOrder )
+	SETOWNER( oOwner )
+	SETPICTURECOLUMNS( aPicture )
+	SETPOSTEDITCELL()
+	SETPREEDITCELL( bBlock )
+	SETPROFILEID( cProfileid )
+	SETQUERY( cQuery )
+	SETQUERYINDEX( aIndex )
+	SETRECUPARATECOLUMN( aReccolumns )
+	SETSAVEFILTER( lSavefilter )
+	SETSEEK( bAction, aOrder )
+	SETSEEKCHANGE( bSeekchange )
+	SETSHOWLIMIT( lShowlimit )
+	SETSTYLE( cStyle )
+	SETSUPERDEL( bSuperdel )
+	SETTOTALCOLUMNS()
+	SETTOTALDEFAULT( cId, cType, cTitle, cMask )
+	SETTYPEMOVE( nTypemove )
+	SETUNIQUEKEY( aSetkey )
+	SETUPDATEBROWSE( bUpdatebrowse )
+	SETUSECASEFILTER( nAlign )
+	SETUSEFILTER( nAlign, bOnstart )
+	SETUSERELATIONFILTER( lRelationfilter )
+	SETVIEWEDTLINE( bSet )
+	SETVLDEXECFILTER( bVldexecfilter )
+	SETVSCROLL( lScroll )
+	SETWIDTHCOLUMNS( aWidth )
+	SHOW()
+	SHOWBROWSE()
+	SHOWDATA( nCount )
+	SHOWEDITLINE()
+	SUPERDEL()
+	TOTALCHANGE()
+	TOTALCOLUMNCONFIG( oPcenter )
+	UPDATEBROWSE( lReseek, lForceupdtb )
+	UPDATERELATION()
+	UPDATETOPBOT( lGotop )
+	UPDEMPTYMESSAGE()
+	UPDVISIBRW()
+	VALIDEDIT( lCancel, oDlg, oGet, lGoright, bValid )
+	VERIFYLAYOUT()
+	VIEWCOMMENT()
+	WIDTHCOLUMNCONFIG( oPcenter )
+

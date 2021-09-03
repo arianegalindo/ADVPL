@@ -1,0 +1,37 @@
+Class FWDESKTOP
+
+Properties
+	aStates
+	bAfterlogin
+	bBeforelogin
+	bOnhide
+	bOnshow
+	oOwner
+	oSkin
+
+Methods
+	ACTIVATE()
+	BUILDDESKTOP( oFwmenu )
+	CHANGEMODULE( nModule, cFilename, lHasdafault )
+	CLEARINFO()
+	DEACTIVATE()
+	GETBHIDEDESKTOP()
+	GETBSHOWDESKTOP()
+	GETENV( oDesktop, oUserauth, cSso, aEmpfil, aModules, bValid, bNext )
+	GETMETER()
+	GETMSGBAR()
+	GETSSO()
+	GETUSER( oDesktop, oUserauth, nLoginsize, nPswsize, cSso, bValid, bNext, nSsotype )
+	GETWORKAREA()
+	GOPREVIOUS()
+	HIDEDESKTOP()
+	HIDELOGIN()
+	NEW( oMainwnd )
+	SETBFINDER( bFind )
+	SETBONHIDE( bOnhide )
+	SETBONSHOW( bOnshow )
+	SETINFO( nType, cTitle, cMessage )
+	SHOWDESKTOP()
+	SHOWLOGIN()
+	UPDATEPANELS( nState )
+

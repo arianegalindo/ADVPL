@@ -1,0 +1,84 @@
+Class MSAPP
+
+Properties
+	aMenuidiom
+	bAppinit
+	bAppstart
+	bHidemainpage
+	bMaininit
+	bMdilogoff
+	bShowmainpage
+	cArgo
+	cArqtab
+	cCredential
+	cDefaultfont
+	cEmpant
+	cFilexnu
+	cFopened
+	cInternet
+	cLanguage
+	cModdesc
+	cModname
+	cModulo
+	cNumemp
+	cPar01
+	cPar02
+	cProfile
+	cServerip
+	cStartprog
+	cThreadid
+	cUserid
+	cUserlogin
+	cUsername
+	cUsuario
+	cVersion
+	dDatabase
+	lBlindbrw
+	lCanchangetheme
+	lFlat
+	lForceenvselect
+	lForcefinal
+	lGoempfil
+	lHascti
+	lHaswfmsg
+	lIsblind
+	lIsofficeapp
+	lMandatory
+	lMdi
+	lMdimenuinfo
+	lMessagebar
+	lSigapaf
+	lTouch
+	nAccmode
+	nMdimodulo
+	nModulo
+	nPort
+	nStart
+	oDesktop
+	oEventviewer
+	oMainwnd
+	oMdifolder
+	oMsgbar
+	oMsgitem0
+	oMsgitem1
+	oMsgitem2
+	oMsgitem3
+	oMsgitem4
+	oMsgitem5
+	oRss
+	oSdiworkspace
+	oTibrowser
+	oWsonline
+
+Methods
+	ACTIVATE( bAction )
+	ADDMSGITEM()
+	CREATEENV()
+	FORCEFINAL()
+	GETLOGIN( oDesktop, bNext )
+	GETUSERLOGIN()
+	NEW( cModule, lIsblind, lIsoffice, nAccmode )
+	SETBUTTONSIDIOM( lRefresh )
+	SETSTATUSBARTEXT( cText )
+	SETUSERLOGIN( cUserlogin )
+

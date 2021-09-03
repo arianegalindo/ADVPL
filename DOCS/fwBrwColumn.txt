@@ -1,0 +1,98 @@
+Class FWBRWCOLUMN
+
+Properties
+	aOptions
+	bData
+	bHeaderclick
+	bLdblclick
+	bValid
+	cClassname
+	cComment
+	cHeaderimage
+	cId
+	cReadvar
+	cTitle
+	cType
+	lAutosize
+	lDeleted
+	lDetails
+	lEdit
+	lImage
+	lUser
+	lVirtual
+	nAlign
+	nBackcolor
+	nDecimal
+	nForecolor
+	nGridid
+	nOrder
+	nOrderdefault
+	nSize
+	nWidth
+	xF3
+	xPicture
+
+Methods
+	ACTIVATE()
+	CLASSNAME()
+	DEACTIVATE()
+	DELETED()
+	GETALIGN()
+	GETAUTOSIZE()
+	GETBACKCOLOR()
+	GETCOMMENT()
+	GETDATA()
+	GETDECIMAL()
+	GETDETAILS()
+	GETDOUBLECLICK()
+	GETEDIT()
+	GETF3()
+	GETFORECOLOR()
+	GETGRIDID()
+	GETHEADERCLICK()
+	GETHEADERIMAGE()
+	GETID()
+	GETOPTIONS()
+	GETORDER()
+	GETORDERDEFAULT()
+	GETPICTURE( lEval )
+	GETSIZE()
+	GETTITLE()
+	GETTYPE()
+	GETVALID()
+	GETVIRTUAL()
+	GETWIDTH()
+	ISIMAGE()
+	NEW()
+	READVAR()
+	SETALIGN( xAlign )
+	SETAUTOSIZE( lAutosize )
+	SETBACKCOLOR( nBackcolor )
+	SETCOMMENT( cComment )
+	SETDATA( bData )
+	SETDECIMAL( nDecimal )
+	SETDELETE( lDelete )
+	SETDETAILS( lDetails )
+	SETDOUBLECLICK( bLdblclick )
+	SETEDIT( lEdit )
+	SETF3( pXf3 )
+	SETFORECOLOR( nForecolor )
+	SETGRIDID( nGridid )
+	SETHEADERCLICK( bHeaderclick )
+	SETHEADERIMAGE( cHeaderimage )
+	SETID( cId )
+	SETIMAGE( lImage )
+	SETOPTIONS( aOptions )
+	SETORDER( nOrder )
+	SETORDERDEFAULT( nOrderdefault )
+	SETPICTURE( xPicture )
+	SETREADVAR( cReadvar )
+	SETSIZE( nSize )
+	SETTITLE( cTitle )
+	SETTYPE( cType )
+	SETUSERCOLUMN( lUser )
+	SETVALID( bValid )
+	SETVIRTUAL( lVirtual )
+	SETWIDTH( nWidth )
+	USERCOLUMN()
+

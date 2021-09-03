@@ -1,0 +1,55 @@
+Class FWUISKIN
+
+Properties
+	oContpgol
+	oWsfv12
+	bFinder
+	bHidedesktop
+	bShowdesktop
+	cLastaccmsg
+	cLastacctitle
+	lCandisassociate
+	nBalloonx
+	nBalloony
+	oBalloon
+	oContdesktop
+	oContlogin
+	oFwdesktop
+	oFwuimenu
+	oGetuser
+	oGreeting
+	oLoginbg
+	oLogopainel
+	oMsgbar
+	oPenv
+	oPmeter
+	oPuser
+	oPwait
+
+Methods
+	BUILDDESKTOP( oFwmenu )
+	BUILDMENU( oFwmenu, oTitle, oPmenul, oPmenuf )
+	GETMSGBAR()
+	GETWORKAREA()
+	HIDEDESKTOP()
+	NEW()
+	SHOWDESKTOP()
+	ACTIVATE( oOwner, oFwdesktop )
+	BUILDDESKTOP()
+	BUILDINIT()
+	DEACTIVATE()
+	GETENV( oDesktop, oUserauth, cSso, aEmpfil, aModules, bValid, bNext )
+	GETMETER()
+	GETUSER( oDesktop, oUserauth, nLoginsize, nPswsize, cSso, bValid, bNext, nSsotype )
+	GETWORKAREA()
+	HIDEDESKTOP()
+	HIDEENV()
+	HIDELOGIN()
+	HIDEMETER()
+	HIDEUSER()
+	NEW()
+	SETBFINDER( bFinder )
+	SETINFO( nType, cTitle, cMessage )
+	SHOWDESKTOP()
+	SHOWLOGIN()
+

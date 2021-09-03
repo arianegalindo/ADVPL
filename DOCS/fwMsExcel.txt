@@ -1,0 +1,95 @@
+Class FWMSEXCEL
+
+Properties
+	aTable
+	aWorksheet
+	cBgcolor
+	cBgcolor2line
+	cBgcolorheader
+	cBgcolorline
+	cBgcolortitle
+	cFont
+	cFont2line
+	cFontheader
+	cFontline
+	cFonttitle
+	cFrcolor
+	cFrcolor2line
+	cFrcolorheader
+	cFrcolorline
+	cFrcolortitle
+	lActivate
+	lBold
+	lBold2line
+	lBoldheader
+	lBoldline
+	lBoldtitle
+	lItalic
+	lItalic2line
+	lItalicheader
+	lItalicline
+	lItalictitle
+	lUnder
+	lUnder2line
+	lUnderheader
+	lUnderline
+	lUndertitle
+	lWritexml
+	nFontsize
+	nFontsize2line
+	nFontsizeheader
+	nFontsizeline
+	nFontsizetitle
+
+Methods
+	ACTIVATE()
+	ADDCOLUMN( cWorksheet, cTable, cColumn, nAlign, nFormat, lTotal, cPicture )
+	ADDROW( cWorksheet, cTable, aRow )
+	ADDTABLE( cWorksheet, cTable )
+	ADDWORKSHEET( cWorksheet )
+	CLASSNAME()
+	CONFIG()
+	DEACTIVATE()
+	GETCOLUM( cWorksheet, cTable )
+	GETXMLFILE( cFile )
+	ISWORKSHEET( cWorksheet )
+	NEW()
+	REMOVEWORKSHEET( cWorksheet )
+	RESTARTCOLUM( cWorksheet, cTable )
+	SET2LINEBGCOLOR( cColor )
+	SET2LINEBOLD( lBold )
+	SET2LINEFONT( cFont )
+	SET2LINEFRCOLOR( cColor )
+	SET2LINEITALIC( lItalic )
+	SET2LINESIZEFONT( nFontsize )
+	SET2LINEUNDERLINE( lUnderline )
+	SETBGCOLORHEADER( cColor )
+	SETBGGENERALCOLOR( cColor )
+	SETBOLD( lBold )
+	SETFONT( cFont )
+	SETFONTSIZE( nFontsize )
+	SETFRCOLORHEADER( cColor )
+	SETFRGENERALCOLOR( cColor )
+	SETHEADERBOLD( lBold )
+	SETHEADERFONT( cFont )
+	SETHEADERITALIC( lItalic )
+	SETHEADERSIZEFONT( nFontsize )
+	SETHEADERUNDERLINE( lUnderline )
+	SETITALIC( lItalic )
+	SETLINEBGCOLOR( cColor )
+	SETLINEBOLD( lBold )
+	SETLINEFONT( cFont )
+	SETLINEFRCOLOR( cColor )
+	SETLINEITALIC( lItalic )
+	SETLINESIZEFONT( nFontsize )
+	SETLINEUNDERLINE( lUnderline )
+	SETTITLEBGCOLOR( cColor )
+	SETTITLEBOLD( lBold )
+	SETTITLEFONT( cFont )
+	SETTITLEFRCOLOR( cColor )
+	SETTITLEITALIC( lItalic )
+	SETTITLESIZEFONT( nFontsize )
+	SETTITLEUNDERLINE( lUnderline )
+	SETUNDERLINE( lUnderline )
+	SETWRITEXML()
+
